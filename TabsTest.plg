@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TabsTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/TabsTest.res" /d "_DEBUG" /d "_AFXDLL" "E:\Алексей\shelek\статьи мои\new_статья по табам\PRJ_TabsTest\TabsTest\TabsTest.rc"" 
+Creating temporary file "C:\DOCUME~1\1\LOCALS~1\Temp\RSP8FA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TabsTest.pdb" /debug /machine:I386 /out:"Debug/TabsTest.exe" /pdbtype:sept 
+".\Debug\MyTabDialog.obj"
+".\Debug\Page1.obj"
+".\Debug\Page2.obj"
+".\Debug\Page3.obj"
+".\Debug\Page4.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TabsTest.obj"
+".\Debug\TabsTestDlg.obj"
+".\Debug\TabsTest.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\1\LOCALS~1\Temp\RSP8FA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+TabsTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by TabsTest.rc
+//
+#define HIDC_chkCREATE                  0x806603e9    // IDD_TABSTEST_DIALOG

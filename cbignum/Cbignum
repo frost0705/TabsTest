@@ -1,0 +1,4 @@
+case $MACHTYPE in (x86_64*) r=64;; esac
+g++ -O5 -DNDEBUG Arifexp.cpp Cbignum.cpp Cbignumf.cpp Cbignums.cpp Ctty.cpp Exarray.cpp Gettimer.c Random3.c -o Arifexp$r
+g++ -O5 -DNDEBUG Matrix.cpp Cbignum.cpp Cbignumf.cpp Cbignums.cpp Exarray.cpp Gettimer.c -o Matrix$r
+g++ -O5 -DNDEBUG Miller.cpp Cbignum.cpp Cbignumf.cpp Cbignums.cpp Ctty.cpp Exarray.cpp Gettimer.c Prime.cpp -o Miller$r
